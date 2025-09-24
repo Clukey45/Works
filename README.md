@@ -1,4 +1,4 @@
-Portfolio of Data Projects
+Portfolio of Data Projects  
 This repository contains personal projects demonstrating data processing, visualization, and analysis on real-world datasets.
 
 Project 1: Ocean Beach Events Data Pipeline
