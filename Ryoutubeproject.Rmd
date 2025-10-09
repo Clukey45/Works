@@ -1,0 +1,40 @@
+---
+title: "Youtube Music Video Analysis"
+author: "Christopher Luke"
+date: "2025-10-09"
+output: html_document
+---
+Goal: Investigate data set containing information on the top 100 music videos on YouTube in 2025. This approach will utilize R to load, transform and visualize trends such as popularity rank while also observing potential relationships between channel follower count and video views. 
+
+Libraries used: dplyr and ggplot2 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Loading csv file and transforming it into a dataframe 
+```{r}
+library(dplyr)
+library(ggplot2)
+path <- "C:/Users/chris/OneDrive/Desktop/youtube-top-100-songs-2025.csv"
+tibble <- read.csv(path)
+glimpse(tibble)
+```
+
+Transforming dataframe, including sorting by view count descending and creating a corresponding rank column, and calculating average viewer count per channel 
+```{r}
+tibble <- tibble %>% arrange(channel, desc(view_count))
+tibble <- tibble %>% mutate(rank = rank(-view_count))
+avgviewsperchannel <- tibble %>% group_by(channel) %>% summarise (avgviews = mean(view_count), count = n(), channel_follower_count = first(channel_follower_count))
+head(avgviewsperchannel,10)
+```
+
+Visualizing results and fitting a linear regression model to understand potential relationships 
+```{r}
+scatter <- ggplot(avgviewsperchannel, aes(x = channel_follower_count, y = avgviews)) + geom_point()
+print(scatter)
+linearmodel <- lm(avgviews ~ channel_follower_count, data = avgviewsperchannel)
+summary(linearmodel)
+```
+
+Results summary provides statistics regarding the linear model, showing a statistically insignificant relatinoship between a channel's follower count and its average video reviews 
