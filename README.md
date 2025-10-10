@@ -7,7 +7,7 @@ Project 1: Ocean Beach Events Data Pipeline
 * Analyzed trends over multiple years and identified the most frequent events.
 
 Project 2: Chronic Disease Indicators Analysis and Exploration
-* Explored public health datasets using SQL to query and aggregate data efficiently.
+* Explored CDC public health dataset using SQL to query and aggregate data efficiently.
 * Performed statistical analysis and created visualizations to highlight disparities and trends across populations.
 * Leveraged Python and Pandas to further process data and generate insights.
 
