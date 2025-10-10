@@ -9,6 +9,8 @@ transform and visualize trends such as popularity rank while also
 observing potential relationships between channel follower count and
 video views.
 
+Data Source: https://www.kaggle.com/datasets/eshummalik/yt-trends
+
 Libraries used: dplyr and ggplot2
 
 Loading csv file and transforming it into a data frame
@@ -119,3 +121,4 @@ summary(linearmodel)
 Results summary provides statistics regarding the linear model, showing
 a statistically insignificant relationship between a channel’s follower
 count and its average video reviews
+
