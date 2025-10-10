@@ -10,3 +10,8 @@ Project 2: Chronic Disease Indicators Analysis and Exploration
 * Explored public health datasets using SQL to query and aggregate data efficiently.
 * Performed statistical analysis and created visualizations to highlight disparities and trends across populations.
 * Leveraged Python and Pandas to further process data and generate insights.
+
+Project 3: Youtube Music Video Analysis via R 
+*Investigate dataset concerning top 100 youtube music videos for 2025 utilizing R. 
+*Features dplyr and ggplot2 for sorting, ranking, aggregating and joining dataframes as well as creating scatterplots for visualization.
+* Perform basic linear regression analysis to examine potential correlations between channel popularity and video performance.
