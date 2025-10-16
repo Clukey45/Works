@@ -91,7 +91,7 @@ ggplot(avgviewsperchannel, aes(x = channel_follower_count, y = avgviews)) +
 <figure>
 <img src="follower_count_vs_views.png"
 alt="Channel Follower vs Average Views" />
-<figcaption aria-hidden="true">Channel Follower vs Average
+<figcaption aria-hidden="true">
 Views</figcaption>
 </figure>
 
@@ -122,6 +122,7 @@ summary(linearmodel)
 Results summary provides statistics regarding the linear model, showing
 a statistically insignificant relationship between a channel’s follower
 count and its average video reviews
+
 
 
 
