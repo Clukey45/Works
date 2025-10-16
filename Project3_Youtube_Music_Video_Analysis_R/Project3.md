@@ -79,8 +79,9 @@ head(avgviewsperchannel,10)
     ## 10 Claudia Valentina    667846      1                  23900
 
 Visualizing results and fitting a linear regression model to understand
-potential relationships **Showing code and referencing figure through
-github**
+potential relationships 
+
+**Showing code and referencing figure through github**
 
 ``` r
 ggplot(avgviewsperchannel, aes(x = channel_follower_count, y = avgviews)) +
@@ -121,5 +122,6 @@ summary(linearmodel)
 Results summary provides statistics regarding the linear model, showing
 a statistically insignificant relationship between a channel’s follower
 count and its average video reviews
+
 
 
