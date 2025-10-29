@@ -17,5 +17,5 @@ Project 3: Youtube Music Video Analysis via R
 * Perform basic linear regression analysis to examine potential correlations between channel popularity and video performance.
 
 Project 4: Sripps Ocean Temperatures DashBoard (Power BI)  
-*Create visualizations showcasing trends in ocean temperature data generated from Scripps Pier over more than a century 
-*Features graphs and matrices depicting rise and fall in ocean temperature in relation to seasonal and temporal changes  
+* Showcases visualizations describing trends in ocean temperature data generated from Scripps Pier over more than a century 
+* Features graphs and matrices depicting rise and fall in ocean temperature in relation to seasonal and temporal changes  
