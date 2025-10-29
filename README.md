@@ -15,3 +15,7 @@ Project 3: Youtube Music Video Analysis via R
 * Investigate dataset concerning top 100 youtube music videos for 2025 utilizing R. 
 * Features dplyr and ggplot2 for sorting, ranking, aggregating and joining dataframes as well as creating scatterplots for visualization.
 * Perform basic linear regression analysis to examine potential correlations between channel popularity and video performance.
+
+Project 4: Sripps Ocean Temperatures DashBoard (Power BI)  
+*Create visualizations showcasing trends in ocean temperature data generated from Scripps Pier over more than a century 
+*Features graphs and matrices depicting rise and fall in ocean temperature in relation to seasonal and temporal changes  
