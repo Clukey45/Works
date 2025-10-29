@@ -16,6 +16,6 @@ Project 3: Youtube Music Video Analysis via R
 * Features dplyr and ggplot2 for sorting, ranking, aggregating and joining dataframes as well as creating scatterplots for visualization.
 * Perform basic linear regression analysis to examine potential correlations between channel popularity and video performance.
 
-Project 4: Sripps Ocean Temperatures DashBoard (Power BI)  
+Project 4: Scripps Ocean Temperatures DashBoard (Power BI)  
 * Showcases visualizations describing trends in ocean temperature data generated from Scripps Pier over more than a century 
 * Features graphs and matrices depicting rise and fall in ocean temperature in relation to seasonal and temporal changes  
